@@ -27,7 +27,7 @@ class Queue<T>{
     last = t;           //t를 새로운 last로 만들기
     /* 만약 큐에 넣는 첫 노드라면(만약 큐가 원래 비어있다면) */
     if(first == null){
-      first = last;     //fisrt와 last의 주소 동일시하기
+      first = last;     //first와 last의 주소 동일시하기
     }
   }
 
