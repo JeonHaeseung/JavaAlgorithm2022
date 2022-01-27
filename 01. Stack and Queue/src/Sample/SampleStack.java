@@ -49,7 +49,7 @@ class Stack<T>{
  
   /* stack이 비어있는지 확인한다 */
   public boolean isEmpty(){
-    return top == null; //스택이 비어있으면 true, 
+    return top == null; //스택이 비어있으면 true, 스택이 채워져 있으면 false를 반환
   }
 }
 
