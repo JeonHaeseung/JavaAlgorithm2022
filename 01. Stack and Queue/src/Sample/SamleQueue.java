@@ -14,7 +14,7 @@ class Queue<T>{
   }
 
   private Node<T> first;  //first라는 객체 선언
-  private Node<T> last;   //last 객체 선언
+  private Node<T> last;   //last라는 객체 선언
 
   public void add(T item){
     /* t라는 Node 객체를 메모리에 할당(인스턴스화), item의 값을 이 노드에 저장 */
@@ -57,7 +57,7 @@ class Queue<T>{
   
   /* queue가 비어있는지 확인한다 */
   public boolean isEmpty(){
-    return first == null;   //큐가 비어있으면 true, 스택이 채워져 있으면 false를 반환
+    return first == null;   //큐가 비어있으면 true, 큐가 채워져 있으면 false를 반환
   }
 }
 
