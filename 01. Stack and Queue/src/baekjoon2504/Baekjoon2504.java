@@ -1,4 +1,4 @@
-package Baekjoon;
+package baekjoon2504;
 
 import java.util.EmptyStackException;
 import java.util.Scanner;
@@ -43,7 +43,7 @@ class Stack<T>{
 }
 
 
-public class Baejoon2504 {
+public class Baekjoon2504 {
   public static void main(String[] args) {
     Stack<Character> s = new Stack<Character>();
     char ch;
@@ -100,3 +100,4 @@ public class Baejoon2504 {
     System.out.println(answer);
   }
 }
+
