@@ -21,6 +21,7 @@ class LinkedList {
     	}
     }
 	
+	
 	/* 새로운 노드를 연결리스트의 맨 처음에 추가해주는 함수 */
 	public void addFirst(Object input) {
 		Node newNode = new Node(input); //Node라는 객체를 만들어줌

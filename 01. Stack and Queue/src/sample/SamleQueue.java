@@ -11,6 +11,7 @@ class Queue<T>{
     public Node(T data){    //메소드명 Node는 data를 받으면 내부 변수에 저장한다.
       this.data = data;     //내부 변수에 저장
     }
+    
   }
 
   private Node<T> first;  //first라는 객체 선언

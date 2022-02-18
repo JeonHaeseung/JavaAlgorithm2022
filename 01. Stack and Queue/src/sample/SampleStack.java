@@ -22,6 +22,7 @@ class Stack<T>{
     if(top ==null){
       throw new EmptyStackException(); //throw는 자바의 예외던지기임. 우리가 import한 "java.util.EmptyStackException"에서 이 예외를 받아 처리함.
     }
+    
 
     /* stack에 data가 있을 경우(=top이 null이 아닐 경우)) */
     T item = top.data;  //top 노드의 data를 item에 넘겨준다.
