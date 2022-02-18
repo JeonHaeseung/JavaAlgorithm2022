@@ -14,6 +14,7 @@ class Queue<T>{
     
   }
 
+
   private Node<T> first;  //first라는 객체 선언
   private Node<T> last;   //last라는 객체 선언
 
