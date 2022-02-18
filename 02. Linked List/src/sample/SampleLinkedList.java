@@ -140,7 +140,7 @@ class LinkedList {
 }
 
 
-public class LinkedList1 {
+public class SampleLinkedList {
 	public static void main(String[] args) {
 		LinkedList numbers = new LinkedList(); //LinkedList 클래스를 인스턴스화
 	    numbers.addFirst(30);
