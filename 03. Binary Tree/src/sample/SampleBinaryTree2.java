@@ -25,18 +25,4 @@ public class SampleBinaryTree2 {
  * 3. 'brown'은 'the'보다 빠르므로 왼쪽으로 이동한다. 이때 'quick'을 만나는데, 'brown'이 더 빠르므로 왼쪽으로 또 이동한다.
  * 4. 'fox'는 'the'보다 빠르고, 'quick'보다 빠르고, 'brown'보다는 느리므로 오른쪽 노드가 된다.
  * ...(중략)...
- * 결과:
- * 			the
- * 		   /
- * 		quick
- *       /
- *  brown
- *      \
- * 		fox
- *     /   \
- * dog 		jumps
- * 			  \
- * 			  over
- *            /
- * 			lazy
  * */
