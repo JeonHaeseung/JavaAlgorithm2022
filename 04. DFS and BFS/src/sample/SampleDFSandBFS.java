@@ -1,10 +1,8 @@
 package sample;
 
 import java.util.LinkedList;
-import java.util.Iterator;
 import java.util.Stack;
 import java.util.Queue;
-import java.util.NoSuchElementException;
 
 class Graph {
 	class Node{
@@ -115,7 +113,7 @@ class Graph {
     }
 }
 
-public class SampleBFS {
+public class SampleDFSandBFS {
 	public static void main(String[] args) {
 		Graph g = new Graph(9); //그래프 인스턴스화
 		g.addEdge(0, 1);
